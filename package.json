@@ -1,0 +1,25 @@
+{
+  "name": "gitint",
+  "version": "1.0.0",
+  "description": "learning npm",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "start":"npm run lite",
+    "lite":"lite-server"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehalr/gittest.git"
+  },
+  "author": "neha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehalr/gittest/issues"
+  },
+  "homepage": "https://github.com/nehalr/gittest#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
